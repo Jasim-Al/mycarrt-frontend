@@ -1,0 +1,67 @@
+.header {
+  max-width: 100vw;
+}
+.header__slide {
+  background-color: #1b1b1b;
+  position: relative;
+}
+.header__slideImage {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+}
+
+.header__content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 3rem;
+  width: 100%;
+  height: 100%;
+}
+
+.header__contentContent {
+  max-width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cartIcon {
+  position: relative;
+  cursor: pointer;
+}
+
+.cartIcon > span {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  color: #1b1b1b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #de443f;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-radius: 50%;
+  width: 2.3rem;
+  max-height: 2.3rem;
+  color: #fff;
+}
+
+.cartIcon > div > img {
+  width: 5rem;
+}
+
+.header__contentLogo {
+  display: flex;
+}
+
+.header__logo {
+  width: 6rem;
+  margin-right: 1rem;
+}
+
+.green {
+  color: #1aad2c;
+}

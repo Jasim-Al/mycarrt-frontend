@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+.App {
+  padding-bottom: 5rem;
+  background-color: #ccc;
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.applist {
+  max-width: 80vw;
+  margin: 0 auto;
+  padding: 5rem;
+}
+
+.cart {
+  background-color: #edfee7;
+
+  z-index: 500;
+}
