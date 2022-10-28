@@ -5,7 +5,7 @@ import { AiOutlineClose } from "react-icons/ai";
 import { CartContext } from "../context/cartContext";
 import CartItem from "./CartItem";
 
-function Cart() {
+function Cart({ setCart }) {
   const { cart } = useContext(CartContext);
   return (
     <Box h="100%" w="100%">
@@ -17,6 +17,7 @@ function Cart() {
           size="lg"
           fontSize="4xl"
           fontWeight={500}
+          onClick={() => setCart((cart) => !cart)}
         ></Button>
       </Box>
       <Box>

@@ -68,7 +68,7 @@ function App() {
               animate={{ width: "30vw", opacity: 1 }}
               exit={{ width: 0, opacity: 0 }}
             >
-              <Cart />
+              <Cart setCart={setIsCartOpen} />
             </motion.div>
           )}
         </Box>
